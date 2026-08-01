@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ef233c">
+  <meta name="description" content="Resultados de BM Sanse en el Campeonato de España de Balonmano Playa de Laredo.">
+  <title>BM Sanse · Resultados Laredo</title>
+  <link rel="icon" href="/assets/escudo-bm-sanse.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="/" aria-label="BM Sanse, inicio">
+        <img src="/assets/escudo-bm-sanse.png" alt="Escudo de Club Balonmano Sanse" width="64" height="64">
+        <span>
+          <strong>BM Sanse</strong>
+          <small>Balonmano playa</small>
+        </span>
+      </a>
+      <span class="event-pill">Laredo 2026</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Campeonato de España</p>
+          <h1>Todos los resultados de Sanse, de un vistazo.</h1>
+          <p class="hero-lead">Consulta marcadores, sets, horarios y rivales de todas nuestras categorías en Laredo.</p>
+        </div>
+
+        <form id="search-form" class="date-card">
+          <label for="date-input">Fecha de competición</label>
+          <div class="date-controls">
+            <input id="date-input" name="fecha" type="date" required>
+            <button type="submit">
+              <span>Consultar</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+            </button>
+          </div>
+          <p>Datos publicados desde la fuente oficial RFEBM · iSquad</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="shell content" aria-live="polite">
+      <div id="loading" class="loading-panel" hidden>
+        <span class="loader" aria-hidden="true"></span>
+        <div>
+          <strong>Cargando los marcadores</strong>
+          <p>Estamos preparando los resultados publicados.</p>
+        </div>
+      </div>
+
+      <div id="error-panel" class="message-panel error-panel" hidden>
+        <span class="message-icon">!</span>
+        <div>
+          <strong>No hemos podido cargar los resultados</strong>
+          <p id="error-message"></p>
+          <button id="retry-button" type="button">Reintentar</button>
+        </div>
+      </div>
+
+      <div id="results-view" hidden>
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Jornada seleccionada</p>
+            <h2 id="date-heading">Resultados</h2>
+          </div>
+          <p id="updated-at" class="updated-at"></p>
+        </div>
+
+        <div class="stats" aria-label="Resumen de resultados">
+          <article class="stat stat-total">
+            <span>Partidos</span>
+            <strong id="stat-matches">0</strong>
+          </article>
+          <article class="stat stat-win">
+            <span>Victorias</span>
+            <strong id="stat-wins">0</strong>
+          </article>
+          <article class="stat stat-loss">
+            <span>Derrotas</span>
+            <strong id="stat-losses">0</strong>
+          </article>
+          <article class="stat stat-other">
+            <span>Pendientes</span>
+            <strong id="stat-others">0</strong>
+          </article>
+        </div>
+
+        <div class="toolbar">
+          <div id="filters" class="filters" aria-label="Filtrar por categoría"></div>
+          <span id="visible-count" class="visible-count"></span>
+        </div>
+
+        <div id="results-list" class="results-list"></div>
+
+        <div id="empty-state" class="message-panel empty-panel" hidden>
+          <img src="/assets/escudo-bm-sanse.png" alt="" width="72" height="72">
+          <div>
+            <strong>No hay partidos de BM Sanse en esta fecha</strong>
+            <p>Prueba con otro día del campeonato.</p>
+          </div>
+        </div>
+
+        <p id="without-matches" class="without-matches" hidden></p>
+        <details id="warnings-panel" class="warnings" hidden>
+          <summary>Avisos de la consulta</summary>
+          <ul id="warnings-list"></ul>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-inner">
+      <p>Club Balonmano San Sebastián de los Reyes</p>
+      <p>Resultados informativos. Consulta siempre la fuente oficial.</p>
+    </div>
+  </footer>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>

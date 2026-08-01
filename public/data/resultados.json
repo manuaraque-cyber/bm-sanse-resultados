@@ -1,0 +1,757 @@
+{
+  "tournament": "Campeonato de España Laredo",
+  "generatedAt": "2026-08-01T13:58:00.090380Z",
+  "categories": [
+    "Cadete femenino",
+    "Cadete masculino",
+    "Infantil femenino",
+    "Infantil masculino",
+    "Juvenil femenino",
+    "Juvenil masculino",
+    "Sénior femenino",
+    "Sénior masculino"
+  ],
+  "dates": {
+    "2026-07-30": {
+      "date": "2026-07-30",
+      "tournament": "Campeonato de España Laredo",
+      "summary": {
+        "matches": 7,
+        "victories": 3,
+        "defeats": 4,
+        "others": 0
+      },
+      "results": [
+        {
+          "date": "2026-07-30",
+          "time": "10:20",
+          "category": "Cadete femenino",
+          "categoryCode": "CF",
+          "team": "BM SANSE CF",
+          "opponent": "U. RENTERIA BLUE BUTTERFLIES",
+          "phase": "PREVIA GRUPO F",
+          "jornada": 1,
+          "score": "0-2",
+          "outcome": "Derrota",
+          "sets": [
+            "18-22",
+            "18-26"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 6 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210667&id=1038935&jornada=1"
+        },
+        {
+          "date": "2026-07-30",
+          "time": "10:20",
+          "category": "Cadete masculino",
+          "categoryCode": "CM",
+          "team": "BM SANSE CM",
+          "opponent": "PIOJOS BMP",
+          "phase": "PREVIA GRUPO D",
+          "jornada": 1,
+          "score": "0-2",
+          "outcome": "Derrota",
+          "sets": [
+            "24-25",
+            "20-22"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 10 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210666&id=1038915&jornada=1"
+        },
+        {
+          "date": "2026-07-30",
+          "time": "11:40",
+          "category": "Cadete femenino",
+          "categoryCode": "CF",
+          "team": "BM SANSE CF",
+          "opponent": "BALONMANO TORRELAVEGA",
+          "phase": "PREVIA GRUPO F",
+          "jornada": 2,
+          "score": "2-0",
+          "outcome": "Victoria",
+          "sets": [
+            "21-18",
+            "22-14"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 12 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210667&id=1038935&jornada=2"
+        },
+        {
+          "date": "2026-07-30",
+          "time": "11:40",
+          "category": "Cadete masculino",
+          "categoryCode": "CM",
+          "team": "BM SANSE CM",
+          "opponent": "AQUAFONT C.H. XABIA",
+          "phase": "PREVIA GRUPO D",
+          "jornada": 2,
+          "score": "2-1",
+          "outcome": "Victoria",
+          "sets": [
+            "26-28",
+            "22-20",
+            "13-12"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 4 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210666&id=1038915&jornada=2"
+        },
+        {
+          "date": "2026-07-30",
+          "time": "12:20",
+          "category": "Sénior masculino",
+          "categoryCode": "SM",
+          "team": "BM SANSE EL CASAR SM",
+          "opponent": "IES PEREDA PLAYA",
+          "phase": "PREVIA GRUPO C",
+          "jornada": 1,
+          "score": "2-0",
+          "outcome": "Victoria",
+          "sets": [
+            "35-28",
+            "26-24"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 3 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210662&id=1039013&jornada=1"
+        },
+        {
+          "date": "2026-07-30",
+          "time": "18:00",
+          "category": "Sénior masculino",
+          "categoryCode": "SM",
+          "team": "BM SANSE EL CASAR SM",
+          "opponent": "CBM HORIZONTE A",
+          "phase": "PREVIA GRUPO C",
+          "jornada": 3,
+          "score": "1-2",
+          "outcome": "Derrota",
+          "sets": [
+            "18-28",
+            "21-14",
+            "6-7"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 1 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210662&id=1039013&jornada=3"
+        },
+        {
+          "date": "2026-07-30",
+          "time": "18:40",
+          "category": "Infantil masculino",
+          "categoryCode": "IM",
+          "team": "BM SANSE IM",
+          "opponent": "BALONMANO PLAYA AZUQUECA",
+          "phase": "GRUPO C",
+          "jornada": 1,
+          "score": "1-2",
+          "outcome": "Derrota",
+          "sets": [
+            "30-29",
+            "18-26",
+            "14-16"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 3 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210668&id=1038888&jornada=1"
+        }
+      ],
+      "categoriesWithoutMatches": [
+        "Infantil femenino",
+        "Juvenil femenino",
+        "Juvenil masculino",
+        "Sénior femenino"
+      ],
+      "warnings": [],
+      "generatedAt": "2026-08-01T13:58:00.090380Z"
+    },
+    "2026-07-31": {
+      "date": "2026-07-31",
+      "tournament": "Campeonato de España Laredo",
+      "summary": {
+        "matches": 16,
+        "victories": 7,
+        "defeats": 9,
+        "others": 0
+      },
+      "results": [
+        {
+          "date": "2026-07-31",
+          "time": "09:00",
+          "category": "Infantil masculino",
+          "categoryCode": "IM",
+          "team": "BM SANSE IM",
+          "opponent": "PLAYAS DE FUENGIROLA",
+          "phase": "GRUPO C",
+          "jornada": 2,
+          "score": "2-0",
+          "outcome": "Victoria",
+          "sets": [
+            "25-24",
+            "28-24"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 11 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210668&id=1038888&jornada=2"
+        },
+        {
+          "date": "2026-07-31",
+          "time": "09:00",
+          "category": "Sénior masculino",
+          "categoryCode": "SM",
+          "team": "BM SANSE EL CASAR SM",
+          "opponent": "PLAYAS DE FUENGIROLA",
+          "phase": "GRUPO C",
+          "jornada": 1,
+          "score": "0-2",
+          "outcome": "Derrota",
+          "sets": [
+            "10-22",
+            "24-28"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 3 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210662&id=1039021&jornada=1"
+        },
+        {
+          "date": "2026-07-31",
+          "time": "10:20",
+          "category": "Juvenil masculino",
+          "categoryCode": "JM",
+          "team": "BM SANSE EL CASAR JM",
+          "opponent": "HELVETIA MONTEQUINTO CARBONERAS",
+          "phase": "GRUPO F",
+          "jornada": 1,
+          "score": "0-2",
+          "outcome": "Derrota",
+          "sets": [
+            "22-24",
+            "22-23"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 6 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210664&id=1038967&jornada=1"
+        },
+        {
+          "date": "2026-07-31",
+          "time": "10:20",
+          "category": "Juvenil masculino",
+          "categoryCode": "JM",
+          "team": "BM SANSE JM",
+          "opponent": "C. BM. GETASUR JM",
+          "phase": "GRUPO G",
+          "jornada": 1,
+          "score": "2-0",
+          "outcome": "Victoria",
+          "sets": [
+            "25-22",
+            "26-14"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 7 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210664&id=1038968&jornada=1"
+        },
+        {
+          "date": "2026-07-31",
+          "time": "11:00",
+          "category": "Infantil femenino",
+          "categoryCode": "IF",
+          "team": "BM SANSE IF",
+          "opponent": "TORREON DE BENALMADENA",
+          "phase": "GRUPO C",
+          "jornada": 2,
+          "score": "0-2",
+          "outcome": "Derrota",
+          "sets": [
+            "18-27",
+            "16-30"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 7 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210669&id=1038903&jornada=2"
+        },
+        {
+          "date": "2026-07-31",
+          "time": "12:20",
+          "category": "Cadete masculino",
+          "categoryCode": "CM",
+          "team": "BM SANSE CM",
+          "opponent": "CBMP CARBONERAS",
+          "phase": "ELIMINATORIAS FASE CONSOLACION",
+          "jornada": 1,
+          "score": "1-2",
+          "outcome": "Derrota",
+          "sets": [
+            "24-20",
+            "20-21",
+            "6-8"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 11 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210666&id=1038926&jornada=1"
+        },
+        {
+          "date": "2026-07-31",
+          "time": "13:00",
+          "category": "Juvenil masculino",
+          "categoryCode": "JM",
+          "team": "BM SANSE EL CASAR JM",
+          "opponent": "PLAYAS DE FUENGIROLA",
+          "phase": "GRUPO F",
+          "jornada": 2,
+          "score": "0-2",
+          "outcome": "Derrota",
+          "sets": [
+            "28-32",
+            "12-22"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 6 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210664&id=1038967&jornada=2"
+        },
+        {
+          "date": "2026-07-31",
+          "time": "13:00",
+          "category": "Juvenil masculino",
+          "categoryCode": "JM",
+          "team": "BM SANSE JM",
+          "opponent": "C.H. XABIA",
+          "phase": "GRUPO G",
+          "jornada": 2,
+          "score": "2-0",
+          "outcome": "Victoria",
+          "sets": [
+            "19-14",
+            "28-15"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 7 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210664&id=1038968&jornada=2"
+        },
+        {
+          "date": "2026-07-31",
+          "time": "13:40",
+          "category": "Juvenil femenino",
+          "categoryCode": "JF",
+          "team": "BM SANSE JF",
+          "opponent": "TORREON DE BENALMADENA",
+          "phase": "GRUPO D",
+          "jornada": 2,
+          "score": "2-1",
+          "outcome": "Victoria",
+          "sets": [
+            "22-29",
+            "24-21",
+            "8-4"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 4 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210665&id=1038986&jornada=2"
+        },
+        {
+          "date": "2026-07-31",
+          "time": "16:00",
+          "category": "Sénior masculino",
+          "categoryCode": "SM",
+          "team": "BM SANSE SM",
+          "opponent": "PLASROAL BALONMANO PLAYA ALCALA",
+          "phase": "GRUPO G",
+          "jornada": 2,
+          "score": "2-0",
+          "outcome": "Victoria",
+          "sets": [
+            "24-14",
+            "22-20"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 7 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210662&id=1039025&jornada=2"
+        },
+        {
+          "date": "2026-07-31",
+          "time": "16:40",
+          "category": "Sénior femenino",
+          "categoryCode": "SF",
+          "team": "BM SANSE SF",
+          "opponent": "FUNDACION FOMENTO DEPORTE CBMP CIUDAD DE MALAGA A",
+          "phase": "GRUPO A",
+          "jornada": 2,
+          "score": "0-2",
+          "outcome": "Derrota",
+          "sets": [
+            "8-22",
+            "13-28"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 2 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210663&id=1039000&jornada=2"
+        },
+        {
+          "date": "2026-07-31",
+          "time": "18:00",
+          "category": "Infantil femenino",
+          "categoryCode": "IF",
+          "team": "BM SANSE IF",
+          "opponent": "BM. SAN ANDRES CAJA RURAL DE ASTURIAS",
+          "phase": "GRUPO C",
+          "jornada": 3,
+          "score": "0-2",
+          "outcome": "Derrota",
+          "sets": [
+            "17-22",
+            "18-19"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 3 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210669&id=1038903&jornada=3"
+        },
+        {
+          "date": "2026-07-31",
+          "time": "19:20",
+          "category": "Juvenil femenino",
+          "categoryCode": "JF",
+          "team": "BM SANSE JF",
+          "opponent": "BALONMANO PLAYA AZUQUECA",
+          "phase": "GRUPO D",
+          "jornada": 3,
+          "score": "1-2",
+          "outcome": "Derrota",
+          "sets": [
+            "21-20",
+            "14-19",
+            "10-12"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 4 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210665&id=1038986&jornada=3"
+        },
+        {
+          "date": "2026-07-31",
+          "time": "20:00",
+          "category": "Sénior femenino",
+          "categoryCode": "SF",
+          "team": "BM SANSE SF",
+          "opponent": "BMP SESE",
+          "phase": "GRUPO A",
+          "jornada": 3,
+          "score": "2-0",
+          "outcome": "Victoria",
+          "sets": [
+            "20-14",
+            "26-16"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 9 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210663&id=1039000&jornada=3"
+        },
+        {
+          "date": "2026-07-31",
+          "time": "20:40",
+          "category": "Sénior masculino",
+          "categoryCode": "SM",
+          "team": "BM SANSE EL CASAR SM",
+          "opponent": "BEACH CASERIO CIUDAD REAL",
+          "phase": "GRUPO C",
+          "jornada": 3,
+          "score": "0-2",
+          "outcome": "Derrota",
+          "sets": [
+            "26-27",
+            "22-26"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 1 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210662&id=1039021&jornada=3"
+        },
+        {
+          "date": "2026-07-31",
+          "time": "20:40",
+          "category": "Sénior masculino",
+          "categoryCode": "SM",
+          "team": "BM SANSE SM",
+          "opponent": "MALIAÑO BEACH",
+          "phase": "GRUPO G",
+          "jornada": 3,
+          "score": "2-0",
+          "outcome": "Victoria",
+          "sets": [
+            "21-18",
+            "23-16"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 5 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210662&id=1039025&jornada=3"
+        }
+      ],
+      "categoriesWithoutMatches": [
+        "Cadete femenino"
+      ],
+      "warnings": [],
+      "generatedAt": "2026-08-01T13:58:00.090380Z"
+    },
+    "2026-08-01": {
+      "date": "2026-08-01",
+      "tournament": "Campeonato de España Laredo",
+      "summary": {
+        "matches": 12,
+        "victories": 3,
+        "defeats": 5,
+        "others": 4
+      },
+      "results": [
+        {
+          "date": "2026-08-01",
+          "time": "09:00",
+          "category": "Infantil femenino",
+          "categoryCode": "IF",
+          "team": "BM SANSE IF",
+          "opponent": "BMP BEACH CASERIO CIUDAD REAL",
+          "phase": "ELIMINATORIAS PREVIAS",
+          "jornada": 1,
+          "score": "1-2",
+          "outcome": "Derrota",
+          "sets": [
+            "24-22",
+            "20-22",
+            "0-2"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 10 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210669&id=1038911&jornada=1"
+        },
+        {
+          "date": "2026-08-01",
+          "time": "09:00",
+          "category": "Infantil masculino",
+          "categoryCode": "IM",
+          "team": "BM SANSE IM",
+          "opponent": "HPMOLINS",
+          "phase": "ELIMINATORIAS PREVIAS",
+          "jornada": 1,
+          "score": "2-0",
+          "outcome": "Victoria",
+          "sets": [
+            "30-18",
+            "23-18"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 4 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210668&id=1038895&jornada=1"
+        },
+        {
+          "date": "2026-08-01",
+          "time": "10:20",
+          "category": "Juvenil femenino",
+          "categoryCode": "JF",
+          "team": "BM SANSE JF",
+          "opponent": "PLASROAL BMP ALCALA JF",
+          "phase": "ELIMINATORIAS PREVIAS",
+          "jornada": 1,
+          "score": "2-1",
+          "outcome": "Victoria",
+          "sets": [
+            "14-27",
+            "18-16",
+            "6-4"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 8 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210665&id=1038978&jornada=1"
+        },
+        {
+          "date": "2026-08-01",
+          "time": "11:00",
+          "category": "Juvenil masculino",
+          "categoryCode": "JM",
+          "team": "BM SANSE EL CASAR JM",
+          "opponent": "BMP ALGECIRAS",
+          "phase": "ELIMINATORIAS PREVIAS",
+          "jornada": 1,
+          "score": "0-2",
+          "outcome": "Derrota",
+          "sets": [
+            "18-26",
+            "12-18"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 4 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210664&id=1038954&jornada=1"
+        },
+        {
+          "date": "2026-08-01",
+          "time": "11:40",
+          "category": "Cadete femenino",
+          "categoryCode": "CF",
+          "team": "BM SANSE CF",
+          "opponent": "TORREON DE BENALMADENA",
+          "phase": "FASE CONSOLACION",
+          "jornada": 1,
+          "score": "0-2",
+          "outcome": "Derrota",
+          "sets": [
+            "20-28",
+            "25-29"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 6 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210667&id=1038930&jornada=1"
+        },
+        {
+          "date": "2026-08-01",
+          "time": "12:20",
+          "category": "Sénior femenino",
+          "categoryCode": "SF",
+          "team": "BM SANSE SF",
+          "opponent": "BM PLAYA PARLA SF",
+          "phase": "ELIMINATORIAS PREVIAS",
+          "jornada": 1,
+          "score": "2-1",
+          "outcome": "Victoria",
+          "sets": [
+            "22-8",
+            "20-26",
+            "7-4"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 6 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210663&id=1038995&jornada=1"
+        },
+        {
+          "date": "2026-08-01",
+          "time": "13:00",
+          "category": "Sénior masculino",
+          "categoryCode": "SM",
+          "team": "BM SANSE EL CASAR SM",
+          "opponent": "BALONMANO PLAYA AZUQUECA",
+          "phase": "ELIMINATORIAS PREVIAS",
+          "jornada": 1,
+          "score": "1-2",
+          "outcome": "Derrota",
+          "sets": [
+            "20-30",
+            "27-22",
+            "4-5"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 2 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210662&id=1039010&jornada=1"
+        },
+        {
+          "date": "2026-08-01",
+          "time": "13:40",
+          "category": "Infantil masculino",
+          "categoryCode": "IM",
+          "team": "BM SANSE IM",
+          "opponent": "BMP ALGECIRAS A",
+          "phase": "FASE FINAL",
+          "jornada": 1,
+          "score": "1-2",
+          "outcome": "Derrota",
+          "sets": [
+            "16-23",
+            "28-22",
+            "4-9"
+          ],
+          "status": "Finalizado",
+          "venue": "CAMPO 4 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210668&id=1038896&jornada=1"
+        },
+        {
+          "date": "2026-08-01",
+          "time": "18:00",
+          "category": "Juvenil femenino",
+          "categoryCode": "JF",
+          "team": "BM SANSE JF",
+          "opponent": "NICOSUR BMP. LAS PERIS",
+          "phase": "FASE FINAL",
+          "jornada": 1,
+          "score": "0-0",
+          "outcome": "Empate",
+          "sets": [],
+          "status": "Pendiente",
+          "venue": "CAMPO 8 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210665&id=1038977&jornada=1"
+        },
+        {
+          "date": "2026-08-01",
+          "time": "18:00",
+          "category": "Juvenil masculino",
+          "categoryCode": "JM",
+          "team": "BM SANSE JM",
+          "opponent": "CADIZ CF ZONABALONMANO",
+          "phase": "FASE FINAL",
+          "jornada": 1,
+          "score": "0-0",
+          "outcome": "Empate",
+          "sets": [],
+          "status": "Pendiente",
+          "venue": "CAMPO 10 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210664&id=1038953&jornada=1"
+        },
+        {
+          "date": "2026-08-01",
+          "time": "18:40",
+          "category": "Sénior femenino",
+          "categoryCode": "SF",
+          "team": "BM SANSE SF",
+          "opponent": "C.H. XABIA",
+          "phase": "FASE FINAL",
+          "jornada": 1,
+          "score": "0-0",
+          "outcome": "Empate",
+          "sets": [],
+          "status": "Pendiente",
+          "venue": "CAMPO 6 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210663&id=1038994&jornada=1"
+        },
+        {
+          "date": "2026-08-01",
+          "time": "19:20",
+          "category": "Sénior masculino",
+          "categoryCode": "SM",
+          "team": "BM SANSE SM",
+          "opponent": "AVANNUBO HANDBOL PLATJA GRANOLLERS",
+          "phase": "FASE FINAL",
+          "jornada": 1,
+          "score": "0-0",
+          "outcome": "Empate",
+          "sets": [],
+          "status": "Pendiente",
+          "venue": "CAMPO 6 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210662&id=1039009&jornada=1"
+        }
+      ],
+      "categoriesWithoutMatches": [
+        "Cadete masculino"
+      ],
+      "warnings": [],
+      "generatedAt": "2026-08-01T13:58:00.090380Z"
+    },
+    "2026-08-02": {
+      "date": "2026-08-02",
+      "tournament": "Campeonato de España Laredo",
+      "summary": {
+        "matches": 0,
+        "victories": 0,
+        "defeats": 0,
+        "others": 0
+      },
+      "results": [],
+      "categoriesWithoutMatches": [
+        "Cadete femenino",
+        "Cadete masculino",
+        "Infantil femenino",
+        "Infantil masculino",
+        "Juvenil femenino",
+        "Juvenil masculino",
+        "Sénior femenino",
+        "Sénior masculino"
+      ],
+      "warnings": [],
+      "generatedAt": "2026-08-01T13:58:00.090380Z"
+    }
+  }
+}
