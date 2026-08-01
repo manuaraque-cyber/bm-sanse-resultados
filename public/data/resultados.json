@@ -1,6 +1,6 @@
 {
   "tournament": "Campeonato de España Laredo",
-  "generatedAt": "2026-08-01T13:58:00.090380Z",
+  "generatedAt": "2026-08-01T16:08:35.393382Z",
   "categories": [
     "Cadete femenino",
     "Cadete masculino",
@@ -497,9 +497,9 @@
       "tournament": "Campeonato de España Laredo",
       "summary": {
         "matches": 12,
-        "victories": 3,
-        "defeats": 5,
-        "others": 4
+        "victories": 4,
+        "defeats": 6,
+        "others": 2
       },
       "results": [
         {
@@ -668,10 +668,13 @@
           "opponent": "NICOSUR BMP. LAS PERIS",
           "phase": "FASE FINAL",
           "jornada": 1,
-          "score": "0-0",
-          "outcome": "Empate",
-          "sets": [],
-          "status": "Pendiente",
+          "score": "0-2",
+          "outcome": "Derrota",
+          "sets": [
+            "14-24",
+            "6-8"
+          ],
+          "status": "Directo",
           "venue": "CAMPO 8 - PLAYA LA SALVÉ LAREDO",
           "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210665&id=1038977&jornada=1"
         },
@@ -684,10 +687,13 @@
           "opponent": "CADIZ CF ZONABALONMANO",
           "phase": "FASE FINAL",
           "jornada": 1,
-          "score": "0-0",
-          "outcome": "Empate",
-          "sets": [],
-          "status": "Pendiente",
+          "score": "2-0",
+          "outcome": "Victoria",
+          "sets": [
+            "21-16",
+            "4-2"
+          ],
+          "status": "Directo",
           "venue": "CAMPO 10 - PLAYA LA SALVÉ LAREDO",
           "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210664&id=1038953&jornada=1"
         },
@@ -728,7 +734,7 @@
         "Cadete masculino"
       ],
       "warnings": [],
-      "generatedAt": "2026-08-01T13:58:00.090380Z"
+      "generatedAt": "2026-08-01T16:08:35.393382Z"
     },
     "2026-08-02": {
       "date": "2026-08-02",
