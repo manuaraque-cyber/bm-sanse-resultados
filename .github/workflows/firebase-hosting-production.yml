@@ -1,0 +1,35 @@
+# Despliega los cambios normales de la rama principal.
+# El actualizador programado despliega sus propios cambios para no depender
+# de un segundo workflow, ya que sus commits usan GITHUB_TOKEN.
+
+name: Deploy to Firebase Hosting on production
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "public/**"
+      - "firebase.json"
+      - ".firebaserc"
+      - ".github/workflows/firebase-hosting-production.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: firebase-hosting-production
+  cancel-in-progress: true
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_RESULTADOS_BMSANSE }}
+          channelId: live
+          projectId: resultados-bmsanse

@@ -3,9 +3,9 @@ name: Actualizar resultados BM Sanse
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7,22,37,52 8-22 30-31 7 *"
+    - cron: "9,24,39,54 8-22 30-31 7 *"
       timezone: "Europe/Madrid"
-    - cron: "7,22,37,52 8-22 1-2 8 *"
+    - cron: "9,24,39,54 8-22 1-2 8 *"
       timezone: "Europe/Madrid"
 
 permissions:
@@ -18,12 +18,13 @@ concurrency:
 jobs:
   actualizar:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Descargar el proyecto
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Preparar Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.13"
 
@@ -42,7 +43,7 @@ jobs:
             echo "Se han encontrado resultados nuevos."
           fi
 
-      - name: Guardar los resultados nuevos
+      - name: Guardar los resultados nuevos en GitHub
         if: steps.cambios.outputs.hay_cambios == 'true'
         shell: bash
         run: |
@@ -51,3 +52,11 @@ jobs:
           git add public/data/resultados.json
           git commit -m "Actualizar resultados $(TZ=Europe/Madrid date +%F)"
           git push
+
+      - name: Publicar los resultados nuevos en Firebase
+        if: steps.cambios.outputs.hay_cambios == 'true'
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_RESULTADOS_BMSANSE }}
+          channelId: live
+          projectId: resultados-bmsanse
