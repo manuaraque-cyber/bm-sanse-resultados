@@ -62,6 +62,13 @@ def load_existing(path: Path) -> dict:
         return {}
 
 
+def without_generated_at(value: dict) -> dict:
+    """Devuelve una copia comparable ignorando las fechas de actualización."""
+    cleaned = dict(value)
+    cleaned.pop("generatedAt", None)
+    return cleaned
+
+
 def query_date(date: str, timeout: float, workers: int) -> dict:
     command = [
         sys.executable,
@@ -79,6 +86,11 @@ def query_date(date: str, timeout: float, workers: int) -> dict:
         raise RuntimeError(f"No se pudo actualizar {date}: {detail}")
 
     raw = json.loads(completed.stdout)
+    warnings = raw.get("avisos", [])
+    if warnings:
+        raise RuntimeError(
+            f"Consulta incompleta para {date}: " + "; ".join(warnings)
+        )
     results = [convert_result(item) for item in raw.get("resultados", [])]
     victories = sum(item["outcome"] == "Victoria" for item in results)
     defeats = sum(item["outcome"] == "Derrota" for item in results)
@@ -94,7 +106,7 @@ def query_date(date: str, timeout: float, workers: int) -> dict:
         },
         "results": results,
         "categoriesWithoutMatches": [name for name in CATEGORIES if name not in codes],
-        "warnings": raw.get("avisos", []),
+        "warnings": [],
     }
 
 
@@ -111,15 +123,23 @@ def main() -> int:
     output = args.salida.resolve()
     existing = load_existing(output)
     days = existing.get("dates", {}) if isinstance(existing.get("dates"), dict) else {}
+    changed_dates: list[str] = []
 
     for date in sorted(set(args.fechas)):
         print(f"Actualizando {date}...", file=sys.stderr)
-        days[date] = query_date(date, args.timeout, args.workers)
+        updated_day = query_date(date, args.timeout, args.workers)
+        previous_day = days.get(date, {})
+        if without_generated_at(previous_day) != without_generated_at(updated_day):
+            days[date] = updated_day
+            changed_dates.append(date)
+
+    if not changed_dates and existing:
+        print("Sin cambios en los resultados; no se modifica el archivo.")
+        return 0
 
     generated_at = dt.datetime.now(dt.timezone.utc).isoformat().replace("+00:00", "Z")
-    for day in days.values():
-        day["generatedAt"] = generated_at
-
+    for date in changed_dates:
+        days[date]["generatedAt"] = generated_at
     dataset = {
         "tournament": "Campeonato de España Laredo",
         "generatedAt": generated_at,
@@ -132,7 +152,8 @@ def main() -> int:
         json.dumps(dataset, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     temporary.replace(output)
-    print(f"Datos guardados en {output}")
+    detail = ", ".join(changed_dates) if changed_dates else "archivo inicial"
+    print(f"Datos guardados en {output} ({detail})")
     return 0
 
 

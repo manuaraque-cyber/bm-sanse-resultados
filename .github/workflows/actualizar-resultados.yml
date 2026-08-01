@@ -1,0 +1,53 @@
+name: Actualizar resultados BM Sanse
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "7,22,37,52 8-22 30-31 7 *"
+      timezone: "Europe/Madrid"
+    - cron: "7,22,37,52 8-22 1-2 8 *"
+      timezone: "Europe/Madrid"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: actualizar-resultados
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el proyecto
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Consultar la jornada actual
+        run: python3 actualizar_datos_web.py "$(TZ=Europe/Madrid date +%F)"
+
+      - name: Comprobar si hay cambios
+        id: cambios
+        shell: bash
+        run: |
+          if git diff --quiet -- public/data/resultados.json; then
+            echo "hay_cambios=false" >> "$GITHUB_OUTPUT"
+            echo "No hay resultados nuevos."
+          else
+            echo "hay_cambios=true" >> "$GITHUB_OUTPUT"
+            echo "Se han encontrado resultados nuevos."
+          fi
+
+      - name: Guardar los resultados nuevos
+        if: steps.cambios.outputs.hay_cambios == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/resultados.json
+          git commit -m "Actualizar resultados $(TZ=Europe/Madrid date +%F)"
+          git push

@@ -48,6 +48,20 @@ python3 actualizar_datos_web.py 2026-07-31 2026-08-01
 
 El actualizador conserva los datos anteriores de las fechas que no se hayan solicitado. Así se puede actualizar solo la jornada actual sin perder las demás.
 
+Si la consulta devuelve exactamente los mismos marcadores, el archivo no se modifica. De esta forma GitHub no crea un commit ni despliega Firebase innecesariamente.
+
+## Actualización automática con GitHub
+
+El flujo `.github/workflows/actualizar-resultados.yml` consulta la jornada actual cada quince minutos, entre las 08:00 y las 22:59 de los días del campeonato, usando la zona horaria de Madrid.
+
+1. En GitHub, abre **Settings → Actions → General**.
+2. En **Workflow permissions**, selecciona **Read and write permissions**.
+3. Guarda el cambio.
+
+Cuando hay un marcador nuevo, el flujo actualiza `public/data/resultados.json` y crea un commit. Ese commit activa `firebase-hosting-merge.yml`, que publica la web. Si no ha cambiado ningún resultado, no se crea el commit ni se despliega Firebase.
+
+También puedes ejecutarlo manualmente desde **Actions → Actualizar resultados BM Sanse → Run workflow**.
+
 ## Probar en local
 
 ```bash
