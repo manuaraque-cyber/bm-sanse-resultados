@@ -1,6 +1,6 @@
 {
   "tournament": "Campeonato de España Laredo",
-  "generatedAt": "2026-08-01T21:38:11.602264Z",
+  "generatedAt": "2026-08-01T22:08:19.613693Z",
   "categories": [
     "Cadete femenino",
     "Cadete masculino",
@@ -766,12 +766,29 @@
       "date": "2026-08-02",
       "tournament": "Campeonato de España Laredo",
       "summary": {
-        "matches": 0,
+        "matches": 1,
         "victories": 0,
         "defeats": 0,
-        "others": 0
+        "others": 1
       },
-      "results": [],
+      "results": [
+        {
+          "date": "2026-08-02",
+          "time": "09:00",
+          "category": "Sénior masculino",
+          "categoryCode": "SM",
+          "team": "BM SANSE SM",
+          "opponent": "FUNDACION FOMENTO DEPORTE CBMP CIUDAD DE MALAGA A",
+          "phase": "FASE FINAL",
+          "jornada": 2,
+          "score": "0-0",
+          "outcome": "Empate",
+          "sets": [],
+          "status": "Pendiente",
+          "venue": "CAMPO 11 - PLAYA LA SALVÉ LAREDO",
+          "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210662&id=1039009&jornada=2"
+        }
+      ],
       "categoriesWithoutMatches": [
         "Cadete femenino",
         "Cadete masculino",
@@ -779,11 +796,10 @@
         "Infantil masculino",
         "Juvenil femenino",
         "Juvenil masculino",
-        "Sénior femenino",
-        "Sénior masculino"
+        "Sénior femenino"
       ],
       "warnings": [],
-      "generatedAt": "2026-08-01T13:58:00.090380Z"
+      "generatedAt": "2026-08-01T22:08:19.613693Z"
     }
   }
 }
