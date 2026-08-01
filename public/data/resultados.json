@@ -1,6 +1,6 @@
 {
   "tournament": "Campeonato de España Laredo",
-  "generatedAt": "2026-08-01T17:09:09.734730Z",
+  "generatedAt": "2026-08-01T21:38:11.602264Z",
   "categories": [
     "Cadete femenino",
     "Cadete masculino",
@@ -497,9 +497,9 @@
       "tournament": "Campeonato de España Laredo",
       "summary": {
         "matches": 13,
-        "victories": 4,
-        "defeats": 7,
-        "others": 2
+        "victories": 5,
+        "defeats": 8,
+        "others": 0
       },
       "results": [
         {
@@ -710,9 +710,9 @@
           "outcome": "Derrota",
           "sets": [
             "16-26",
-            "10-16"
+            "16-26"
           ],
-          "status": "Directo",
+          "status": "Finalizado",
           "venue": "CAMPO 6 - PLAYA LA SALVÉ LAREDO",
           "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210663&id=1038994&jornada=1"
         },
@@ -725,10 +725,13 @@
           "opponent": "AVANNUBO HANDBOL PLATJA GRANOLLERS",
           "phase": "FASE FINAL",
           "jornada": 1,
-          "score": "0-0",
-          "outcome": "Empate",
-          "sets": [],
-          "status": "Pendiente",
+          "score": "2-0",
+          "outcome": "Victoria",
+          "sets": [
+            "20-18",
+            "26-18"
+          ],
+          "status": "Finalizado",
           "venue": "CAMPO 6 - PLAYA LA SALVÉ LAREDO",
           "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210662&id=1039009&jornada=1"
         },
@@ -741,10 +744,14 @@
           "opponent": "BMP BEACH CASERIO CIUDAD REAL",
           "phase": "FASE FINAL",
           "jornada": 2,
-          "score": "0-0",
-          "outcome": "Empate",
-          "sets": [],
-          "status": "Pendiente",
+          "score": "1-2",
+          "outcome": "Derrota",
+          "sets": [
+            "22-27",
+            "25-24",
+            "14-16"
+          ],
+          "status": "Finalizado",
           "venue": "CAMPO 3 - PLAYA LA SALVÉ LAREDO",
           "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210664&id=1038953&jornada=2"
         }
@@ -753,7 +760,7 @@
         "Cadete masculino"
       ],
       "warnings": [],
-      "generatedAt": "2026-08-01T17:09:09.734730Z"
+      "generatedAt": "2026-08-01T21:38:11.602264Z"
     },
     "2026-08-02": {
       "date": "2026-08-02",
