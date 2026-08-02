@@ -2,11 +2,6 @@ name: Actualizar resultados BM Sanse
 
 on:
   workflow_dispatch:
-  schedule:
-    # El Campeonato de Laredo se disputa con horario CEST (UTC+2).
-    # Usamos UTC para mantener compatibilidad con todos los programadores de GitHub.
-    - cron: "8,23,38,53 6-20 30-31 7 *"
-    - cron: "8,23,38,53 6-20 1-2 8 *"
 
 permissions:
   contents: write
