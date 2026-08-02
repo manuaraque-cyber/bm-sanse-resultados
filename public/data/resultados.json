@@ -1,6 +1,6 @@
 {
   "tournament": "Campeonato de España Laredo",
-  "generatedAt": "2026-08-02T07:20:58.668559Z",
+  "generatedAt": "2026-08-02T11:08:01.565144Z",
   "categories": [
     "Cadete femenino",
     "Cadete masculino",
@@ -768,8 +768,8 @@
       "summary": {
         "matches": 1,
         "victories": 0,
-        "defeats": 0,
-        "others": 1
+        "defeats": 1,
+        "others": 0
       },
       "results": [
         {
@@ -781,13 +781,14 @@
           "opponent": "FUNDACION FOMENTO DEPORTE CBMP CIUDAD DE MALAGA A",
           "phase": "FASE FINAL",
           "jornada": 2,
-          "score": "1-1",
-          "outcome": "Empate",
+          "score": "1-2",
+          "outcome": "Derrota",
           "sets": [
             "24-18",
-            "18-20"
+            "20-21",
+            "14-16"
           ],
-          "status": "Directo",
+          "status": "Finalizado",
           "venue": "CAMPO 11 - PLAYA LA SALVÉ LAREDO",
           "source": "https://resultadosbalonmano.isquad.es/competicion.php?id_superficie=2&seleccion=0&id_categoria=2878&id_competicion=210662&id=1039009&jornada=2"
         }
@@ -802,7 +803,7 @@
         "Sénior femenino"
       ],
       "warnings": [],
-      "generatedAt": "2026-08-02T07:20:58.668559Z"
+      "generatedAt": "2026-08-02T11:08:01.565144Z"
     }
   }
 }
